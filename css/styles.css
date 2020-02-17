@@ -1,0 +1,147 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5rem;
+  /*rem = root em and isn't effective by parent sizes*/
+  margin: 20px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #11999E;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem;
+  color: #11999E;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #11999E;
+  font-weight: normal;
+}
+
+.btn {
+  color: #11999E;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #add8e6;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  margin:50px 0;
+
+}
+
+.bottom-container {
+  background-color: #add8e6;
+  color: #11999E;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 20%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 550px;
+  bottom: 325px;
+}
+
+.me {
+  border-radius: 50%
+}
+
+.skill-row {
+  width: 50%;
+  margin: 75px auto 100px auto;
+  text-align: left;
+}
+
+.cat {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bbq {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+	background-color:#11999E;
+	border-radius:8px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#40514E;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+}
+.btn:hover {
+	background-color:#add8e6;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
