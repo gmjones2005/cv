@@ -2,13 +2,14 @@ body {
   color: #40514E;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  /*font-family: 'Merriweather', serif;*/
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
   font-size: 5rem;
   /*rem = root em and isn't effective by parent sizes*/
-  margin: 20px auto 0 auto;
+  margin: 60px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #11999E;
 }
@@ -66,7 +67,6 @@ a:hover {
 
 .middle-container {
   margin:50px 0;
-
 }
 
 .bottom-container {
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #40514E;
   font-size: .75rem;
   padding: 20px 0;
 }
